@@ -5,7 +5,7 @@ import pandas as pd
 mutationRate = 0.01
 totalPopulation = 150
 crossOver = 0.5
-target = "winner takes it all"
+target = "winner"
 alpha_list = [chr(x) for x in range(ord('a'), ord('z') + 1)] 
 alpha_list.append(' ')
 populationData = []
